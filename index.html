@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>YouTube</title>
+</head>
+
+<body>
+  <div id="container">
+    <!-- logo search -->
+    <div id="header">
+      <div id="header_left">
+        <div id="iconBox_header">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="./images/youtube_logo.png">
+        <div id="tw">TW</div>
+      </div>
+      <div id="header_mid">
+        <input type="text" value="搜尋" style="border-right:none;">
+        <div id="searchIcon" style="border:1px solid #d3d3d3;"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div id="iconBox_header" style="left:600px;background-color: #F2F2F2;border-radius: 50%;"><i
+            class="fa-solid fa-microphone"></i>
+        </div>
+      </div>
+      <div id="header_right">
+        <div id="iconBox_header"><i class="fa-brands fa-buromobelexperte"></i></div>
+        <div id="iconBox_header" style="left:40px;"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+        <div id="signInIcon">
+          <div id="iconBox_header">
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+          <div id="text">登入</div>
+        </div>
+      </div>
+    </div>
+    <!-- sidebar -->
+    <div id="sidebar">
+      <div id="sidebar_box">
+        <div id="options"><i class="fa-solid fa-house"></i>首頁</div>
+        <div id="options"><i class="fa-solid fa-compass"></i>探索</div>
+        <div id="options"><i class="fa-solid fa-bolt"></i>Shorts</div>
+        <div id="options"><i class="fa-solid fa-circle-play"></i>訂閱內容</div>
+      </div>
+      <div id="sidebar_box">
+        <div id="options"><i class="fa-solid fa-house"></i>首頁</div>
+        <div id="options"><i class="fa-solid fa-compass"></i>探索</div>
+      </div>
+      <div id="sidebar_box">
+        <div class="text">登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</div>
+        <div class="signIn">
+          <div><i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;&nbsp;登入</div>
+        </div>
+      </div>
+      <div id="sidebar_box">
+        <div class="boxTitle">YOUTUBE 精選</div>
+        <div id="options"><i class="fa-solid fa-music"></i>音樂</div>
+        <div id="options"><i class="fa-solid fa-medal"></i>體育</div>
+        <div id="options"><i class="fa-solid fa-gamepad"></i>遊戲</div>
+        <div id="options"><i class="fa-solid fa-film"></i>電影</div>
+        <div id="options"><i class="fa-solid fa-newspaper"></i>新聞</div>
+        <div id="options"><i class="fa-regular fa-face-kiss-wink-heart"></i>直播</div>
+        <div id="options"><i class="fa-solid fa-street-view"></i>360度影片</div>
+      </div>
+      <div id="sidebar_box">
+        <div id="options"><i class="fa-solid fa-plus"></i>瀏覽頻道</div>
+      </div>
+      <div id="sidebar_box">
+        <div class="boxTitle">更多 YOUTUBE 功能</div>
+        <div id="options"><i class="fa-brands fa-youtube"></i>YouTube Premium</div>
+        <div id="options"><i class="fa-solid fa-display"></i>直播</div>
+      </div>
+      <div id="sidebar_box">
+        <div id="options"><i class="fa-solid fa-gear"></i>設定</div>
+        <div id="options"><i class="fa-regular fa-flag"></i>檢舉紀錄</div>
+        <div id="options"><i class="fa-regular fa-circle-question"></i>說明</div>
+        <div id="options"><i class="fa-regular fa-message"></i>提供意見</div>
+      </div>
+      <div id="sidebar_box" style="padding-bottom:0px;">
+        <div class="foot1">
+          <a href="">簡介</a>
+          <a href="">媒體</a>
+          <a href="">版權</a>
+          <a href="">與我們聯絡</a> <br>
+          <a href="">創作者</a>
+          <a href="">廣告</a>
+          <a href="">開發人員</a>
+        </div>
+        <div class="foot2">
+          <a href="">條款</a>
+          <a href="">隱私權</a>
+          <a href="">政策與安全性</a>
+          <a href="">YouTube&nbsp;運作方式</a>
+          <a href="">測試新功能</a>
+        </div>
+        <div class="foot3">
+          <p>&copy; 2022 Google LLC</p>
+        </div>
+      </div>
+    </div>
+    <!-- video -->
+    <div id="content">
+      <div id="content_top">
+        <div class="optionBox">
+          <div class="top_options">全部</div>
+          <div class="top_options">直播</div>
+          <div class="top_options">音樂</div>
+          <div class="top_options">烹飪節目</div>
+          <div class="top_options">觀光</div>
+          <div class="top_options">動畫</div>
+          <div class="top_options">旅遊勝地</div>
+          <div class="top_options">烹飪</div>
+          <div class="top_options">寵物</div>
+          <div class="top_options">動作冒險遊戲</div>
+          <div class="top_options" style="margin-right:0px;">最新上傳</div>
+        </div>
+      </div>
+      <div id="content_videos">
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="videoBox">
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+          <div class="videosCard">
+            <img
+              src="https://i.ytimg.com/vi/kE2DFEgGO5o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkujQImj4bxXyhXse-NG1q0VXDKA"
+              alt="">
+            <div class="box">
+              <div class="photo">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQDhMwdSaSCn49hm31Hr8K9gtv7wjmLmlD3N-9-9g=s68-c-k-c0x00ffffff-no-rj"
+                  alt="">
+              </div>
+              <div class="cardText">
+                <p>原子邦妮 Astro Bunny 【這世界太壞可你卻太好】Official Music Video</p>
+              </div>
+              <div class="cardText2">
+                <p>原子邦妮 AstroBunny <i class="fa-solid fa-circle-check"></i></p>
+                <p>觀看次數：8.1萬次 · 3 天前</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- font awsome--------------------------------------------------------------------- -->
+  <script src="https://kit.fontawesome.com/8c5bf4ba6a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
